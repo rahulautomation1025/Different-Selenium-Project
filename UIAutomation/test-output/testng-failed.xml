@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <listeners>
+    <listener class-name="com.test.UIAutomtion.CustomListener.Listener"/>
+    <listener class-name="com.test.UIAutomtion.CustomListener.RetryListner"/>
+  </listeners>
+  <test name="TC_003_VerifyListeners(failed)">
+    <classes>
+      <class name="com.test.UIAutomation.HomePage.TC_002">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="Setup"/>
+          <include name="VerifyloginApplication" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.test.UIAutomation.HomePage.TC_002 -->
+      <class name="com.test.UIAutomation.HomePage.TC_001Sigin">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.UIAutomation.HomePage.TC_001Sigin -->
+      <class name="com.test.UIAutomation.HomePage.TC_003_VerifyListeners">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.test.UIAutomation.HomePage.TC_003_VerifyListeners -->
+    </classes>
+  </test> <!-- TC_003_VerifyListeners(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21558" started-at="2017-07-15T23:10:13Z" finished-at="2017-07-15T23:10:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21558" started-at="2017-07-15T23:10:13Z" finished-at="2017-07-15T23:10:34Z">
+      <class name="com.test.UIAutomation.HomePage.TC_003_VerifyListeners">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.test.UIAutomation.HomePage.TC_003_VerifyListeners@3578436e]" name="Setup" is-config="true" duration-ms="14872" started-at="2017-07-15T16:10:13Z" finished-at="2017-07-15T16:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="VerifyListeners()[pri:0, instance:com.test.UIAutomation.HomePage.TC_003_VerifyListeners@3578436e]" name="VerifyListeners" duration-ms="5180" started-at="2017-07-15T16:10:28Z" finished-at="2017-07-15T16:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyListeners -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.UIAutomation.HomePage.TC_003_VerifyListeners@3578436e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-15T16:10:28Z" finished-at="2017-07-15T16:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.UIAutomation.HomePage.TC_003_VerifyListeners.VerifyListeners()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.UIAutomation.HomePage.TC_003_VerifyListeners@3578436e]" name="afterMethod" is-config="true" duration-ms="4" started-at="2017-07-15T16:10:33Z" finished-at="2017-07-15T16:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyListeners status=SUCCESS method=TC_003_VerifyListeners.VerifyListeners()[pri:0, instance:com.test.UIAutomation.HomePage.TC_003_VerifyListeners@3578436e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.UIAutomation.HomePage.TC_003_VerifyListeners@3578436e]" name="endTest" is-config="true" duration-ms="1484" started-at="2017-07-15T16:10:33Z" finished-at="2017-07-15T16:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.UIAutomation.HomePage.TC_003_VerifyListeners -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
